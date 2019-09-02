@@ -1,0 +1,65 @@
+.first_navbar {
+  border: 2px solid red;
+  background-color: black;
+  width: 100%;
+  height: 3.5vh;
+  color: white;
+}
+
+.second_navbar {
+  background-color: black;
+  border: 2px solid red;
+  width: 100%;
+  height: 6.5vh;
+  color: white;
+}
+
+.third_navbar {
+  background-color:rgb(215, 230, 15);
+  border: 2px solid red;
+  width: 100%;
+  height: 3.5vh;
+  color: white;
+}
+
+.container_top {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_top {
+    flex: 3;
+    background-color:rgb(57, 94, 194);
+    border: 2px solid red;
+    width: 100%;
+    height: 57.5vh;
+    color: white;
+}
+
+.main_right {
+    flex: 1.5;
+}
+
+.main_right_top {
+    background-color:rgb(57, 194, 91);
+    border: 2px solid red;
+    width: 100%;
+    height: 28.3vh;
+    color: white;
+}
+
+.main_right_down {
+    background-color:rgb(57, 194, 91);
+    border: 2px solid red;
+    width: 100%;
+    height: 28.7vh;
+    color: white;
+}
+
+.main_container {
+    width: 65%;
+    height: 50vh;
+    margin-left: 35vh;
+    border: 3px solid red;
+    background-color: blueviolet;
+}
