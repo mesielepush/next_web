@@ -3,7 +3,6 @@ a {
 }
 
 .first_navbar {
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -27,7 +26,6 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
-  border: 2px solid red;
   width: 100%;
   height: 6.5vh;
   color: white;
@@ -89,6 +87,11 @@ a {
   background-position: center;
 }
 
+.main_right_top span {
+  margin-left: 2vh;
+  margin-bottom: 2vh;
+}
+
 .main_right_down {
   display: flex;
   flex-direction: column;
@@ -98,6 +101,10 @@ a {
   background-position: center;
 }
 
+.main_right_down span {
+  margin-left: 2vh;
+  margin-bottom: 2vh;
+}
 
 .main_right .headline {
   font-family: 'Ubuntu', sans-serif;
@@ -120,7 +127,6 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   flex: 3;
-  border: 2px solid red;
   width: 100%;
   height: 57.5vh;
   color: white;
@@ -130,32 +136,31 @@ a {
 }
 
 .main_right_top {
-    background-color:rgb(57, 194, 91);
-    border: 2px solid red;
-    width: 100%;
-    height: 28.3vh;
-    color: white;
+  background-color:rgb(57, 194, 91);
+  border: 2px solid red;
+  width: 100%;
+  height: 28.3vh;
+  color: white;
 }
 
 .main_right_down {
-    background-color:rgb(57, 194, 91);
-    border: 2px solid red;
-    width: 100%;
-    height: 28.7vh;
-    color: white;
+  background-color:rgb(57, 194, 91);
+  width: 100%;
+  height: 28.7vh;
+  color: white;
 }
 
 .main_container {
   width: 65%;
-  height: 50vh;
   margin-left: 35vh;
-  border: 3px solid red;
-  background-color: blueviolet;
 }
 
 .first_main {
   display: flex;
   flex-direction: column;
+}
+#latest_n {
+  color: tomato;
 }
 
 .first_main .latest_news {
@@ -168,6 +173,28 @@ a {
 .first_main .latest_news div {
   border: 2px solid red;
   width: 25%;
+}
+.headline {
+  font-family:  'Ubuntu', sans-serif;
+}
+.author {
+  font-family: 'Roboto', sans-serif;
+}
+
+.latest_news img {
+  width: 100%
+}
+
+.top_second_main {
+  display: flex;
+  justify-content: space-between;
+  color: tomato;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.late_fund {
+  display: flex;
+  flex-direction: column;
 }
 
 .second_main .latest_funding {
