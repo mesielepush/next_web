@@ -210,7 +210,6 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border: 2px solid red;
 }
 
 .second_main .latest_funding .item {
@@ -218,18 +217,32 @@ a {
   flex-direction: row;
   justify-content: center;
   width: 25%;
-  border: 1px solid red;
+}
+
+.second_main .latest_funding img {
+  width: 100%;
 }
 
 .third_main .apps_and_gear {
   display: flex;
   justify-content: center;
   width: 100%;
-  border: 2px solid red;
 }
 
 .third_main .apps_and_gear div {
-  border: 2px solid red;
+  width: 33%;
+}
+
+.third_main .apps_and_gear div {
+  width: 33%;
+}
+
+.third_main .continuation {
+  display: flex;
+  flex-direction: row;
+}
+
+.third_main .continuation div {
   width: 33%;
 }
 
@@ -237,18 +250,15 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  border: 2px solid red;
 }
 
 .third_main .apps_text div {
-  border: 2px solid red;
   width: 33%;
 }
 
 .third_main .apps_text div ul {
   list-style: none;
 }
-
 
 .third_main .apps_text div ul li {
   border-bottom: 1px solid rgb(212, 208, 208);
@@ -270,6 +280,10 @@ a {
 
 .third_main .apps_text a {
   color: black;
+}
+
+.third_main img {
+  width: 100%;
 }
 
 .fourth_main .latest_deals {
