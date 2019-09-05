@@ -216,35 +216,14 @@ a {
 .second_main .latest_funding .item {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 25%;
   border: 1px solid red;
 }
 
-.latest_funding .item .board div {
-  height: 4vh;
-}
-
-.latest_funding .item .board .top {
-  background-color: #f8463f;
-  color: white;
-  font-family: sans-serif;
-  margin-bottom: 0;
-}
-
-.latest_funding .item .board .bottom {
-  background-color: #fffaf8;
-  color: black;
-  font-family: sans-serif;
-  margin-top: 0;
-}
-
-.second_main .latest_funding div img {
-  height: 10%;
-}
-
 .third_main .apps_and_gear {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   border: 2px solid red;
 }
@@ -252,6 +231,45 @@ a {
 .third_main .apps_and_gear div {
   border: 2px solid red;
   width: 33%;
+}
+
+.third_main .apps_text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.third_main .apps_text div {
+  border: 2px solid red;
+  width: 33%;
+}
+
+.third_main .apps_text div ul {
+  list-style: none;
+}
+
+
+.third_main .apps_text div ul li {
+  border-bottom: 1px solid rgb(212, 208, 208);
+  margin-top: 5px;
+  margin-right: 50px;
+  padding-bottom: 15px;
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
+
+.third_main .apps_text div ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.third_main .apps_text a {
+  color: black;
 }
 
 .fourth_main .latest_deals {
