@@ -200,7 +200,6 @@ a {
   color: tomato;
 }
 
-
 .late_fund {
   display: flex;
   flex-direction: column;
@@ -229,14 +228,6 @@ a {
   width: 100%;
 }
 
-.third_main .apps_and_gear div {
-  width: 33%;
-}
-
-.third_main .apps_and_gear div {
-  width: 33%;
-}
-
 .third_main .continuation {
   display: flex;
   flex-direction: row;
@@ -244,6 +235,11 @@ a {
 
 .third_main .continuation div {
   width: 33%;
+  padding-right: 2vh;
+}
+
+.continuation h2 {
+  color: tomato;
 }
 
 .third_main .apps_text {
@@ -263,7 +259,7 @@ a {
 .third_main .apps_text div ul li {
   border-bottom: 1px solid rgb(212, 208, 208);
   margin-top: 5px;
-  margin-right: 50px;
+  margin-right: 25px;
   padding-bottom: 15px;
   font-size: 0.8em;
   font-family: sans-serif;
@@ -286,16 +282,33 @@ a {
   width: 100%;
 }
 
+.fourth_main h2 {
+  color: tomato;
+}
+
+.fourth_main h2 {
+  color: tomato;
+}
+
 .fourth_main .latest_deals {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  border: 2px solid red;
 }
 
 .fourth_main .latest_deals div {
-  border: 2px solid red;
   width: 25%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.fourth_main .latest_deals img {
+  width: 100%;
+}
+
+#offer {
+  text-decoration: line-through;
+  color: grey;
 }
 
 .media_links {
@@ -317,4 +330,31 @@ footer ul {
 
 footer ul li {
   margin-right: 2vh;
+}
+.media_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  position: relative;
+  right: 1.9vh;
+}
+
+.links i {
+  background-color: #555;
+  color: white;
+  padding: 1vh;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.about a {
+  
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 0.73em;
+
 }
