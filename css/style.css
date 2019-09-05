@@ -8,18 +8,32 @@ a {
   align-content: center;
   background-color: black;
   width: 100%;
-  height: 3.5vh;
+  height: 5vh;
   color: white;
+  font-family: sans-serif;
+  font-size: 0.68em;
+  color: #aaa;
 }
 
 .first_navbar ul {
   display: flex;
   align-self: center;
   list-style-type: none;
+  margin-left: 3vh;
+  margin-right: 1.5vh;
 }
 
 .first_navbar ul li {
-  margin-right: 1vh; 
+  margin-right: 2vh;
+  cursor: pointer;
+}
+
+.first_navbar ul li:hover {
+  color: white;
+}
+
+.white {
+  color: white;
 }
 
 .second_navbar {
@@ -27,32 +41,47 @@ a {
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 6.5vh;
-  color: white;
+  height: 8vh;
+  font-family: sans-serif;
 }
 
 .second_navbar ul{
   display: flex;
   align-self: center;
   list-style-type: none;
+  margin-left: 3vh;
 }
 
 .second_navbar ul li {
-  color: black;
-  margin-right: 1vh; 
+  color: #aaa;
+  margin-right: 2vh;
+  font-size: 0.78em;
+  cursor: pointer;
 }
 
+
 #search_icon {
-  border-left: 2px solid black;
+  border-left: 2px solid #aaa;
   padding-left: 2vh;
+  color: #aaa;
+  height: 100%;
 }
 
 .third_navbar {
-  font-size: 0.9em;
-  background-color:rgb(215, 230, 15);
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  font-size: 0.65em;
+  background-color:#ffde3b;
   width: 100%;
-  height: 3.5vh;
-  color: rgb(0, 0, 0)
+  height: 4.5vh;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0.5vh;
+}
+
+.third_navbar span {
+  align-self: center;
+  margin-left: 3.5vh;
 }
 
 .container_top {
@@ -132,6 +161,11 @@ a {
   background: url(../assets/1.jpeg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+}
+
+.main_top .tnw_logo_top {
+  height: 25%;
 }
 
 .main_right_top {
@@ -294,6 +328,7 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
+  font-family: sans-serif;
 }
 
 .fourth_main .latest_deals div {
@@ -318,10 +353,29 @@ a {
 }
 
 .actual_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   height: 12vh;
+  color: #aaa;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.68em;
 }
 
+
+.actual_footer .tnw_logo_footer  {
+  width: 3%;
+}
+
+.actual_footer .stackpath_logo_footer  {
+  width: 6%;
+}
+
+.red {
+  color: red;
+}
 
 footer ul {
   list-style-type: none;
@@ -331,30 +385,35 @@ footer ul {
 footer ul li {
   margin-right: 2vh;
 }
+
 .media_links {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
 }
 
 .about {
   position: relative;
   right: 1.9vh;
+  margin-top: 2vh;
 }
 
 .links i {
   background-color: #555;
   color: white;
-  padding: 1vh;
+  padding: 1.5vh;
   border-radius: 100%;
-  margin-right: 20px;
+  margin-right: 15px;
+}
+
+.links {
+  font-family: sans-serif;
 }
 
 .about a {
-  
   text-transform: uppercase;
   color: #aaa;
-  font-size: 0.73em;
-
+  font-size: 0.6em;
 }
