@@ -41,11 +41,6 @@ nav {
   box-sizing: border-box;
 }
 
-.nav-container {
-  width: 100%;
-  height: 100%;
-  display: grid;
-}
 
 .nav_container {
   width: 100%;
@@ -54,7 +49,7 @@ nav {
 }
 
 .nav_black {
-  display: flex;
+  display: none;
   height: 32px;
   background-color: #000;
   color: rgba(255, 255, 255, 0.6);
@@ -228,4 +223,78 @@ nav {
 .cover header p span,
 .section_popular header p span {
     margin: 0 3px;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    top: -32px;
+  }
+  
+  .nav_logo {
+    height: 80px;
+  }
+  /*PROBLEM POSIBLE I DON NOT KNOW OK?...*/
+  .nav_logo a img {
+    position: sticky;
+    top: 32px;
+  }
+  .nav_sections li {
+    display: grid;
+  }
+
+  .nav_icons :nth-child(2) {
+    display: none;
+  }
+
+  .cover {
+    height: 60vh;
+    grid-template-columns: 66.66% auto;
+  }
+
+  .nav_black {
+      display: flex;
+  }
+  
+  .cover_1 {
+    grid-row: span 2;
+  }
+  
+  .cover_1 header h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+}
+
+@media only screen and (min-width:1024px){
+  .cover {
+    height: 75vh;
+    max-height: 560px;
+  }
+  .cover header h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  
+  .cover_1 header h2 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  
+  .cover_logo,
+  .cover_date {
+      display: block;
+  }
+  .nav_logo a {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  .nav_container {
+    position: absolute;
+    left: 0px;
+  }
+  .nav_white {
+    margin-top: -28px;
+  }
 }
