@@ -1,3 +1,7 @@
+.hidden {
+  visibility: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -421,4 +425,35 @@ footer ul li {
   text-transform: uppercase;
   color: #aaa;
   font-size: 0.6em;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo_responsive {
+    visibility: visible;
+  }
+  
+  .logo_responsive img {
+    height: 90%;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  .navbars {
+    display: flex;
+    flex-direction: column;
+    height: 13vh;
+    width: 100%;
+  }
+
+  .third_navbar {
+    clear: both;
+  }
+
+  .main_top {
+    font-size: 0.6em;
+  }
 }
