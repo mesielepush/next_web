@@ -505,7 +505,43 @@ nav {
   color: black;
 }
 
+.deals header {
+  display: flex;
+  justify-content: space-between
+}
 
+.deals header>a {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.deals>div {
+  position: relative;
+}
+
+.deals div .discount {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  background-repeat: no-repeat;
+}
+
+.discount span {
+  display: block;
+  position: relative;
+  top: 32px;
+  right: -16px;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+  font-family: Avalon, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
 
 
 @media only screen and (min-width: 768px) {
