@@ -257,11 +257,11 @@ nav {
     color: #f42;
 }
 
-
 .wrapper section header a:hover,
 .middle-wrapper section h2  a:hover {
     color: #000;
 }
+
 /* news */
 
 .news ul {
@@ -280,7 +280,6 @@ nav {
   color: #555;
 }
 
-
 .new_deals div {
   display: grid;
   padding: 8px 0;
@@ -296,7 +295,6 @@ nav {
     background-size: cover;
     background-position: 50%;
 }
-
 
 .new_deals div div {
   display: block;
@@ -324,7 +322,6 @@ nav {
   justify-content: space-between;
   margin-bottom: 24px;
 }
-
 
 .fund header h2 {
   margin: 0;
@@ -513,7 +510,7 @@ nav {
    
   .fund>div> :nth-last-child(1) {
     display: none;
-}
+  }
   
   .section_latest :nth-child(1){
     grid-column: 1;
