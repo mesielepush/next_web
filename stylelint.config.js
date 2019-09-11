@@ -67,6 +67,7 @@ module.exports = {
     "function-whitespace-after": "always",
     "indentation": 2,
     "length-zero-no-unit": true,
+    "no-descending-specificity": "never",
     "max-empty-lines": 1,
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
