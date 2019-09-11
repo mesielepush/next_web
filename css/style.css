@@ -119,6 +119,7 @@ footer a {
 .nav_black a:hover {
   color: white;
 }
+
 .nav_white {
   display: flex;
   height: 48px;
@@ -615,6 +616,7 @@ footer img {
   font-size: 16px;
   margin-left: 6px;
 }
+
 .deal_price :nth-child(1) {
   text-decoration: line-through;
 }
@@ -679,6 +681,7 @@ footer div {
     position: sticky;
     top: 32px;
   }
+
   .nav_sections li {
     display: grid;
   }
@@ -782,6 +785,7 @@ footer div {
     display: flex;
     justify-content: center;
   }
+
   .footer_legal span {
     margin-right: 10px;
   }
@@ -792,10 +796,12 @@ footer div {
 }
 
 @media only screen and (min-width: 1024px) {
+  
   .cover {
     height: 75vh;
     max-height: 560px;
   }
+
   .cover header h2 {
     font-size: 28px;
     line-height: 28px;
@@ -810,11 +816,13 @@ footer div {
   .cover_date {
       display: block;
   }
+
   .nav_logo a {
     display: none;
     width: 0;
     height: 0;
   }
+
   .nav_container {
     position: absolute;
     left: 0px;
@@ -836,6 +844,7 @@ footer div {
   .news ul {
     font-size: 13px;
   }
+
   .new_deals {
     grid-gap: 24px;
   }
