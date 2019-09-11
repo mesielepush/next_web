@@ -4,7 +4,7 @@
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-#### [View in broswer]()
+#### [View in broswer](https://izaiasneto4.github.io/projects/next-web/)
 
 #### Authors
 
