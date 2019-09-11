@@ -44,7 +44,6 @@ footer a {
   box-sizing: border-box;
 }
 
-
 .nav_container {
   width: 100%;
   height: 100%;
@@ -149,7 +148,6 @@ footer a {
 .nav_icons {
   display: flex;
 }
-
 
 .nav_icons a:hover {
   color: rgb(85, 85, 85);
@@ -347,9 +345,6 @@ footer img {
   color: #f42;
   text-decoration: underline;
 }
-
-
-/* news */
 
 .news ul {
   display: flex;
@@ -666,9 +661,8 @@ footer div {
   }
 }
 
-
-
 @media only screen and (min-width: 768px) {
+
   nav {
     top: -32px;
   }
