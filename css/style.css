@@ -31,6 +31,10 @@ nav {
   height: 48px;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 .nav_logo a {
   display: block;
   width: 106px;
@@ -63,6 +67,50 @@ nav {
   text-decoration: none;
 }
 
+.links_social a {
+  font-size: 18px;
+  display: grid;
+  height: 40px;
+  width: 40px;
+  color: white;
+  background-color: #333;
+  border-radius: 50%;
+  place-content: center;
+  box-sizing: border-box;
+}
+
+.section_popular h3 a {
+  color: white !important;
+}
+
+.middle_wrapper section h2 a {
+  color: rgb(255, 68, 34) !important;
+}
+
+.wrapper section header a:hover,
+.middle_wrapper section h2  a:hover {
+  color: #000;
+}
+
+.cover header a {
+  text-decoration: none;
+}
+
+.nav_icons a {
+  display: block;
+  height: 48px;
+  width: 48px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-left: 1px solid #eee;
+}
+
+.nav_sections a {
+  height: 100%;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
 .nav_black :nth-child(1) a {
   color: white;
   margin-left: 8px;
@@ -71,6 +119,7 @@ nav {
 .nav_black a:hover {
   color: white;
 }
+
 .nav_white {
   display: flex;
   height: 48px;
@@ -93,12 +142,6 @@ nav {
   place-content: center;
 }
 
-.nav_sections a {
-  height: 100%;
-  text-decoration: none;
-  padding: 0 10px;
-}
-
 .nav-sections a:hover {
   color: black;
 }
@@ -107,14 +150,6 @@ nav {
   display: flex;
 }
 
-.nav_icons a {
-  display: block;
-  height: 48px;
-  width: 48px;
-  padding: 16px;
-  box-sizing: border-box;
-  border-left: 1px solid #eee;
-}
 
 .nav_icons a:hover {
   color: rgb(85, 85, 85);
@@ -125,7 +160,7 @@ nav {
 }
 
 .yellow {
-  background-color: #ffdd33;
+  background-color: #fd3;
   padding: 0 6px;
   grid-column: span 2;
   text-align: center;
@@ -162,9 +197,9 @@ nav {
 
 .cover_date,
 .cover_logo {
-    display: none;
-    position: absolute;
-    z-index: 8;
+  display: none;
+  position: absolute;
+  z-index: 8;
 }
 
 .cover_logo {
@@ -174,6 +209,10 @@ nav {
   background-size: cover;
   background-blend-mode: lighten;
   cursor: pointer;
+}
+
+footer img {
+  height: .7em;
 }
 
 .cover_logo img {
@@ -186,20 +225,40 @@ nav {
   right: 24px;
 }
 
-.cover article header,
-.section_popular header {
+.deals header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fund header div a {
+  margin-top: 11px;
+}
+
+.section_popular header,
+.cover article header {
   position: absolute;
   bottom: 0;
   padding: 14px 12px;
   z-index: 8;
 }
 
-.cover header a {
-  text-decoration: none;
+.links_social a:hover {
+  background: transparent;
+  border: 2px solid #333;
 }
 
 .cover header a:hover {
   color: white;
+}
+
+.section_latest h4 a:hover {
+  color: rgb(255, 68, 34) !important;
+  text-decoration: underline;
+}
+
+.fund_section h5 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .cover header h5,
@@ -224,6 +283,23 @@ nav {
   line-height: 16px;
   font-size: 12px;
   color: rgba(255, 255, 255, .6);
+}
+
+.discount span {
+  display: block;
+  position: relative;
+  top: 32px;
+  right: -16px;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+  font-family: Avalon, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fund_section_bottom span {
+  margin-left: 4px;
+  color: #aaa;
 }
 
 .cover header p span,
@@ -258,16 +334,20 @@ nav {
   font-family: 'Passion One', cursive;
 }
 
+.fund header {
+  display: flex;
+}
 
 .wrapper section header a,
 .middle_wrapper section h2 {
-    color: #f42;
+  color: #f42;
 }
 
-.wrapper section header a:hover,
-.middle_wrapper section h2  a:hover {
-    color: #000;
+.new_deals h4 a:hover {
+  color: #f42;
+  text-decoration: underline;
 }
+
 
 /* news */
 
@@ -287,6 +367,10 @@ nav {
   color: #555;
 }
 
+.links_social li {
+  margin: 8px;
+}
+
 .new_deals div {
   display: grid;
   padding: 8px 0;
@@ -295,15 +379,15 @@ nav {
 
 .news_image,
 .deal_image {
-    display: block;
-    width: 100%;
-    padding-top: 100%;
-    grid-row: span 1;
-    background-size: cover;
-    background-position: 50%;
-    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
-    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  grid-row: span 1;
+  background-size: cover;
+  background-position: 50%;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .new_deals div div {
@@ -318,19 +402,8 @@ nav {
   padding-left: 13px;
 }
 
-.new_deals h4 a:hover {
-  color: #f42;
-  text-decoration: underline;
-}
-
 .wrapper .fund {
   display: block;
-}
-
-.fund header {
-  display: block;
-  justify-content: space-between;
-  margin-bottom: 24px;
 }
 
 .fund header h2 {
@@ -341,10 +414,6 @@ nav {
   display: grid;
   margin-top: 8px;
   font-size: 14px;
-}
-
-.fund header div a {
-  margin-top: 11px;
 }
 
 .fund img {
@@ -361,7 +430,8 @@ nav {
 .fund_section {
   background-color: rgb(255, 250, 248);
  }
-.fund_section a img{
+
+.fund_section a img {
   -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
@@ -382,11 +452,6 @@ nav {
   box-sizing: border-box;
   padding: 11px 84px;
   background-color: rgba(255, 68, 34, 0.08);
-}
-
-.fund_section h5 {
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .fund_section h6 {
@@ -422,11 +487,8 @@ nav {
   text-transform: capitalize;
 }
 
-.fund_section_bottom span {
-  margin-left: 4px;
-  color: #aaa;
-}
 /* middle-wrapper */
+
 .middle_wrapper>section {
   display: block;
   padding: 8px 0;
@@ -441,16 +503,8 @@ nav {
   color: white;
 }
 
-.section_popular h3 a {
-  color: white !important;
-}
-
 .section_popular p a {
   color: rgba(255, 255, 255, .6) !important;
-}
-
-.section_popular p a:hover {
-  color: rgba(255, 255, 255, 1) !important;
 }
 
 .section_latest {
@@ -490,18 +544,18 @@ nav {
   font-weight: bold;
 }
 
-.section_latest h4 a:hover {
-  color: rgb(255, 68, 34) !important;
-  text-decoration: underline;
-}
 /* middle-wrapper */
 
-.middle_wrapper section h2 a{
+.middle_wrapper section h2 a {
   color: rgb(255, 68, 34) !important;
 }
 
-.middle_wrapper section h2 a:hover{
-  color: rgb(141, 32, 17)  !important;
+.middle_wrapper section h2 a:hover {
+  color: rgb(141, 32, 17) !important;
+}
+
+.links_menu li {
+  margin: 8px;
 }
 
 .middle_wrapper section ul li {
@@ -528,11 +582,6 @@ nav {
   color: black;
 }
 
-.deals header {
-  display: flex;
-  justify-content: space-between
-}
-
 .deals header>a {
   margin-top: 8px;
   font-size: 14px;
@@ -554,18 +603,6 @@ nav {
   background-repeat: no-repeat;
 }
 
-.discount span {
-  display: block;
-  position: relative;
-  top: 32px;
-  right: -16px;
-  transform: rotate(45deg);
-  text-transform: uppercase;
-  font-family: Avalon, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-}
-
 .deals .deal_price {
   display: flex;
   padding-top: 4px;
@@ -579,6 +616,7 @@ nav {
   font-size: 16px;
   margin-left: 6px;
 }
+
 .deal_price :nth-child(1) {
   text-decoration: line-through;
 }
@@ -587,14 +625,6 @@ footer {
   margin-bottom: 20px;
   background-color: black;
   color: #aaa;
-}
-
-footer a {
-  text-decoration: none;
-} 
-
-footer img {
-  height: .7em;
 }
 
 footer div {
@@ -607,32 +637,7 @@ footer div {
   text-transform: uppercase;
   justify-content: center;
   margin: auto;
-  margin-bottom: 21px
-}
-
-.links_social li {
-  margin: 8px;
-}
-
-.links_social a {
-  font-size: 18px;
-  display: grid;
-  height: 40px;
-  width: 40px;
-  color: white;
-  background-color: #333;
-  border-radius: 50%;
-  place-content: center;
-  box-sizing: border-box;
-}
-
-.links_social a:hover {
-  background: transparent;
-  border: 2px solid #333;
-}
-
-.links_menu li {
-  margin: 8px;
+  margin-bottom: 21px;
 }
 
 .footer_legal {
@@ -676,6 +681,7 @@ footer div {
     position: sticky;
     top: 32px;
   }
+
   .nav_sections li {
     display: grid;
   }
@@ -767,10 +773,6 @@ footer div {
     column-gap: 20px;
   }
 
-  .section_latest :nth-child(1){
-      grid-column: 1;
-  }
-
   .deals div .discount {
     display: block;
   }
@@ -783,6 +785,7 @@ footer div {
     display: flex;
     justify-content: center;
   }
+
   .footer_legal span {
     margin-right: 10px;
   }
@@ -792,11 +795,13 @@ footer div {
   }
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width: 1024px) {
+  
   .cover {
     height: 75vh;
     max-height: 560px;
   }
+
   .cover header h2 {
     font-size: 28px;
     line-height: 28px;
@@ -811,21 +816,24 @@ footer div {
   .cover_date {
       display: block;
   }
+
   .nav_logo a {
     display: none;
     width: 0;
     height: 0;
   }
+
   .nav_container {
     position: absolute;
     left: 0px;
   }
+
   .nav_white {
     margin-top: -28px;
   }
 
   .wrapper section {
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(4, 1fr);
   }
   
   .wrapper section h2,
@@ -836,6 +844,7 @@ footer div {
   .news ul {
     font-size: 13px;
   }
+
   .new_deals {
     grid-gap: 24px;
   }
@@ -849,10 +858,6 @@ footer div {
     font-size: 16px;
   }
 
-  .news ul {
-    font-size: 13px;
-  }
-  
   .fund header {
     display: flex;
   }
@@ -875,7 +880,12 @@ footer div {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+  }
+
+  .section_latest :nth-child(1) {
+    grid-column: 1;
+  }
+
 
   .fund>div> :nth-last-child(1) {
     display: block;
