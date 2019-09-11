@@ -87,7 +87,7 @@ footer a {
 }
 
 .wrapper section header a:hover,
-.middle_wrapper section h2  a:hover {
+.middle_wrapper section h2 a:hover {
   color: #000;
 }
 
@@ -539,12 +539,6 @@ footer img {
   font-weight: bold;
 }
 
-/* middle-wrapper */
-
-.middle_wrapper section h2 a {
-  color: rgb(255, 68, 34) !important;
-}
-
 .middle_wrapper section h2 a:hover {
   color: rgb(141, 32, 17) !important;
 }
@@ -666,7 +660,7 @@ footer div {
   nav {
     top: -32px;
   }
-  
+
   .nav_logo {
     height: 80px;
   }
@@ -756,7 +750,7 @@ footer div {
     grid-template-columns: 1fr 1fr 1fr;
   }
    
-  .fund>div> :nth-last-child(1) {
+  .fund>div>:nth-last-child(1) {
     display: none;
   }
   
@@ -880,7 +874,7 @@ footer div {
     grid-column: 1;
   }
 
-  .fund>div> :nth-last-child(1) {
+  .fund>div>:nth-last-child(1) {
     display: block;
   }
 
