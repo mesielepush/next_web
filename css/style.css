@@ -146,6 +146,9 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .cover_trigger {
@@ -255,13 +258,14 @@ nav {
   font-family: 'Passion One', cursive;
 }
 
+
 .wrapper section header a,
-.middle-wrapper section h2 {
+.middle_wrapper section h2 {
     color: #f42;
 }
 
 .wrapper section header a:hover,
-.middle-wrapper section h2  a:hover {
+.middle_wrapper section h2  a:hover {
     color: #000;
 }
 
@@ -297,6 +301,9 @@ nav {
     grid-row: span 1;
     background-size: cover;
     background-position: 50%;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .new_deals div div {
@@ -353,6 +360,11 @@ nav {
 
 .fund_section {
   background-color: rgb(255, 250, 248);
+ }
+.fund_section a img{
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .fund_section h4 {
@@ -377,7 +389,7 @@ nav {
   font-weight: bold;
 }
 
-.fund-section h6 {
+.fund_section h6 {
   font-size: 11px;
   font-family: "Shentox", sans-serif;
   color: rgba(0, 0, 0, .5);
@@ -484,6 +496,14 @@ nav {
 }
 /* middle-wrapper */
 
+.middle_wrapper section h2 a{
+  color: rgb(255, 68, 34) !important;
+}
+
+.middle_wrapper section h2 a:hover{
+  color: rgb(141, 32, 17)  !important;
+}
+
 .middle_wrapper section ul li {
   position: relative;
   padding: 6px 14px;
@@ -554,10 +574,13 @@ nav {
   align-items: baseline;
 }
 
-.deal-price :nth-child(2) {
+.deal_price :nth-child(2) {
   color: #555;
   font-size: 16px;
   margin-left: 6px;
+}
+.deal_price :nth-child(1) {
+  text-decoration: line-through;
 }
 
 footer {
@@ -631,6 +654,14 @@ footer div {
   font-size: 14px;
   margin: auto;
 }
+
+@media only screen and (min-width: 360px) {
+  .yellow {
+    font-size: 12px;
+  }
+}
+
+
 
 @media only screen and (min-width: 768px) {
   nav {
@@ -748,9 +779,16 @@ footer div {
     padding-left: 0;
   }
 
-  .footer-legal {
+  .footer_legal {
     display: flex;
     justify-content: center;
+  }
+  .footer_legal span {
+    margin-right: 10px;
+  }
+
+  .yellow {
+    font-size: 15px;
   }
 }
 
@@ -849,7 +887,7 @@ footer div {
     row-gap: 48px;
   }
 
-  .footer-legal {
+  .footer_legal {
     display: flex;
     justify-content: center;
   }
@@ -857,6 +895,6 @@ footer div {
   .yellow {
     text-align-last: left;
     padding-left: 15px;
-    font-size: 11px;
+    font-size: 15px;
   }
 }
