@@ -701,7 +701,7 @@ footer div {
     font-size: 40px;
     line-height: 40px;
   }
-  
+
   .wrapper section h2,
   .wrapper section header {
     grid-column: span 3;
@@ -879,7 +879,6 @@ footer div {
   .section_latest :nth-child(1) {
     grid-column: 1;
   }
-
 
   .fund>div> :nth-last-child(1) {
     display: block;
