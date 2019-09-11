@@ -429,7 +429,7 @@ footer img {
 
 .fund_section {
   background-color: rgb(255, 250, 248);
- }
+}
 
 .fund_section a img {
   -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
@@ -696,7 +696,7 @@ footer div {
   }
 
   .nav_black {
-      display: flex;
+    display: flex;
   }
   
   .cover_1 {
@@ -710,7 +710,7 @@ footer div {
   
   .wrapper section h2,
   .wrapper section header {
-      grid-column: span 3;
+    grid-column: span 3;
   }
 
   .new_deals {
@@ -728,8 +728,8 @@ footer div {
   
   .new_deals h4,
   .news ul {
-      margin-top: 8px;
-      padding: 0;
+    margin-top: 8px;
+    padding: 0;
   }
 
   .fund header {
@@ -738,13 +738,13 @@ footer div {
   }
 
   .fund header div {
-      display: flex;
-      font-size: 16px;
+    display: flex;
+    font-size: 16px;
   }
     
-    .fund header div a {
-      margin: 0;
-      margin-right: 23px;
+  .fund header div a {
+    margin: 0;
+    margin-right: 23px;
   }
   
   .fund header div a::after {
@@ -814,7 +814,7 @@ footer div {
   
   .cover_logo,
   .cover_date {
-      display: block;
+    display: block;
   }
 
   .nav_logo a {
@@ -838,7 +838,7 @@ footer div {
   
   .wrapper section h2,
   .wrapper section header {
-      grid-column: span 4;
+    grid-column: span 4;
   }
   
   .news ul {
