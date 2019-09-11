@@ -83,6 +83,10 @@ footer a {
   color: white !important;
 }
 
+.middle_wrapper section h2 a {
+  color: rgb(255, 68, 34) !important;
+}
+
 .wrapper section header a:hover,
 .middle_wrapper section h2  a:hover {
   color: #000;
@@ -541,12 +545,12 @@ footer img {
 
 /* middle-wrapper */
 
-.middle_wrapper section h2 a{
+.middle_wrapper section h2 a {
   color: rgb(255, 68, 34) !important;
 }
 
 .middle_wrapper section h2 a:hover {
-  color: rgb(141, 32, 17)  !important;
+  color: rgb(141, 32, 17) !important;
 }
 
 .links_menu li {

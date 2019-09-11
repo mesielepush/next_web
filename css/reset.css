@@ -20,7 +20,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-size: inherit;
   vertical-align: baseline;
 }
 
@@ -35,16 +35,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol, 
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
