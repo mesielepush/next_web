@@ -79,7 +79,7 @@ module.exports = {
     "media-query-list-comma-space-before": "never",
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
-    "number-leading-zero": "always",
+    "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
     "rule-empty-line-before": [ "always-multi-line", {
@@ -92,7 +92,7 @@ module.exports = {
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
-    "selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-after": "never",
     "selector-list-comma-space-before": "never",
     "selector-max-empty-lines": 0,
     "selector-pseudo-class-case": "lower",
