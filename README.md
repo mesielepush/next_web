@@ -1,4 +1,4 @@
-# apple_clone
+# The_next_web
  This is the clone for the front page of The next Web.
  Specifically this [apple website](https://thenextweb.com/)
  
