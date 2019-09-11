@@ -125,7 +125,7 @@ nav {
 }
 
 .yellow {
-  background-color: #ffdd33;
+  background-color: #fd3;
   padding: 0 6px;
   grid-column: span 2;
   text-align: center;
@@ -162,9 +162,9 @@ nav {
 
 .cover_date,
 .cover_logo {
-    display: none;
-    position: absolute;
-    z-index: 8;
+  display: none;
+  position: absolute;
+  z-index: 8;
 }
 
 .cover_logo {
@@ -261,12 +261,12 @@ nav {
 
 .wrapper section header a,
 .middle_wrapper section h2 {
-    color: #f42;
+  color: #f42;
 }
 
 .wrapper section header a:hover,
 .middle_wrapper section h2  a:hover {
-    color: #000;
+  color: #000;
 }
 
 /* news */
@@ -295,15 +295,15 @@ nav {
 
 .news_image,
 .deal_image {
-    display: block;
-    width: 100%;
-    padding-top: 100%;
-    grid-row: span 1;
-    background-size: cover;
-    background-position: 50%;
-    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
-    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  grid-row: span 1;
+  background-size: cover;
+  background-position: 50%;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .new_deals div div {
@@ -361,7 +361,8 @@ nav {
 .fund_section {
   background-color: rgb(255, 250, 248);
  }
-.fund_section a img{
+
+.fund_section a img {
   -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
@@ -426,7 +427,9 @@ nav {
   margin-left: 4px;
   color: #aaa;
 }
+
 /* middle-wrapper */
+
 .middle_wrapper>section {
   display: block;
   padding: 8px 0;
@@ -494,13 +497,14 @@ nav {
   color: rgb(255, 68, 34) !important;
   text-decoration: underline;
 }
+
 /* middle-wrapper */
 
 .middle_wrapper section h2 a{
   color: rgb(255, 68, 34) !important;
 }
 
-.middle_wrapper section h2 a:hover{
+.middle_wrapper section h2 a:hover {
   color: rgb(141, 32, 17)  !important;
 }
 
@@ -591,7 +595,7 @@ footer {
 
 footer a {
   text-decoration: none;
-} 
+}
 
 footer img {
   height: .7em;
@@ -607,7 +611,7 @@ footer div {
   text-transform: uppercase;
   justify-content: center;
   margin: auto;
-  margin-bottom: 21px
+  margin-bottom: 21px;
 }
 
 .links_social li {
@@ -767,7 +771,7 @@ footer div {
     column-gap: 20px;
   }
 
-  .section_latest :nth-child(1){
+  .section_latest :nth-child(1) {
       grid-column: 1;
   }
 
@@ -792,7 +796,7 @@ footer div {
   }
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width: 1024px) {
   .cover {
     height: 75vh;
     max-height: 560px;
@@ -820,6 +824,7 @@ footer div {
     position: absolute;
     left: 0px;
   }
+
   .nav_white {
     margin-top: -28px;
   }
