@@ -45,9 +45,21 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
+blockquote:before {
+  content: '';
+  content: none;
+}
+
+blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before {
+  content: '';
+  content: none;
+}
+
 q:after {
   content: '';
   content: none;

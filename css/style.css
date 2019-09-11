@@ -226,7 +226,7 @@ footer img {
 
 .deals header {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .fund header div a {
@@ -825,7 +825,7 @@ footer div {
   }
 
   .wrapper section {
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(4, 1fr);
   }
   
   .wrapper section h2,
