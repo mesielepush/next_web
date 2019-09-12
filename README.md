@@ -1,22 +1,20 @@
 # The_next_web
  This is the clone for the front page of The next Web.
- Specifically this [apple website](https://thenextweb.com/)
+ Specifically this [website](https://thenextweb.com/)
  
  This has been made as a part of the [Odin Project.](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
  
 This is for training Responsive Design.
  
- 
-
  ![alt text](https://i.imgur.com/hQ1dG1d.png)
-# Installation
- no installation needed
 
 # Usage
- Just pull the repository and view the index.HTML file in a browser
+ Link to the [live version](https://izaiasneto4.github.io/projects/next-web/)
 
-# Contributing
- You can put a link to your profile for everyone contributing
+# Contributor 
+🇧🇷 [@izaiasneto4](https://github.com/izaiasneto4) 
+🇲🇽 [@mesielepush](https://github.com/mesielepush)
+
 
 # License
 MIT License:
